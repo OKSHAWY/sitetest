@@ -1,0 +1,30 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("./background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: "Minecraft";
+  src: url("Minecraft.woff") format("woff");
+}
+
+.minecraft {
+  font-family: "Minecraft", sans-serif;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.welcome {
+  color: #ffaa00
+}
